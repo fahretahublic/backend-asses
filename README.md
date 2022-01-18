@@ -1,5 +1,3 @@
-# backend-asses
-submission for backend apprenticeship 
 # FetchRewards :
 -Node.js web service 
     -Langauge: JavaScript
