@@ -1,4 +1,3 @@
-# FetchRewards :
 -Node.js web service 
     -Langauge: JavaScript
         -accepts HTTP requests and returns responses
@@ -9,11 +8,11 @@ the oldest accrued points first. Once a payer has been added through a transacti
 Node.js v16.13.2.
 Postman  v9.9.0 (OR similar program)
 
-## How to run:
-    1. download and install the latest version of Node.js.
+# How to run:
+    1. Download and install the latest version of Node.js.
         https://nodejs.org/en/download/
 
-    2. download Postmans send HTTP requests 
+    2. Download Postmans send HTTP requests 
         https://www.postman.com/downloads/
 
     3. Download the four .js files
@@ -21,11 +20,11 @@ Postman  v9.9.0 (OR similar program)
 
     4. Open your command lineprogram and cd to the directory containing all four .js files
 
-    5. run the command:
-       a. node index.js [hostname] [port]
+    5. Run the command:
+       a. node main.js [hostname] [port]
             (omitting hostname or port will prompt the default options of 'localhost' '3000')
 
-    6. launch postman
+    6. Launch postman
         a. enter URL where postman says "Enter request URL" 
             http://localhost:3000/ <--default
 
